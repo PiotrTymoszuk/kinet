@@ -1,0 +1,28 @@
+Package: kinet
+Type: Package
+Title: N-order mixed model kinetic modeling
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: Piotr Tymoszuk <piotr.s.tymoszuk@gmail.com>
+Description: Construction, quality control and inference for n-order 
+    (polynomial) mixed effect models.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Authors@R: 
+    person("Piotr", "Tymoszuk", , "piotr.s.tymoszuk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0398-6034"))
+Imports: 
+    dplyr,
+    furrr,
+    future,
+    ggplot2,
+    ggrepel,
+    lme4,
+    lmerTest,
+    lmqc,
+    purrr,
+    rlang,
+    stringi,
+    tibble
+RoxygenNote: 7.1.1
