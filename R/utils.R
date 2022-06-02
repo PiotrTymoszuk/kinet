@@ -551,7 +551,7 @@
       } else {
 
         kinet_plot <- kinet_plot +
-          ggplot2::geom_text_repel(ggplot2::aes(label = point_lab),
+          ggrepel::geom_text_repel(ggplot2::aes(label = point_lab),
                                    size = label_size,
                                    hjust = 0.25,
                                    vjust = -1,
